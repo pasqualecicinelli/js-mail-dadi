@@ -6,7 +6,7 @@ const emailUser = prompt("Inserisci l'email per accedere");
 for (let i = 0; i < mailArray.length; i++) {
 
 
-    if (emailUser == mailArray) {
+    if (emailUser == mailArray[i]) {
 
         console.log('corretto ' + emailUser);
 
