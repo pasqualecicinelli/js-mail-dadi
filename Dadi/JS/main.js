@@ -15,7 +15,7 @@ if (randomUser > randomComputer) {
 
     console.log('Il computer ha il punteggio più alto');
 
-} else (randomUser == randomComputer) {
+} else if(randomUser == randomComputer) {
 
     console.log('Avete lo stesso punteggio, quindi avete pareggiato');
 }
